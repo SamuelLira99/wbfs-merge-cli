@@ -7,8 +7,9 @@ I'm also working in a GTK version of it
 
 **HOW TO INSTALL:**
 
-**Arch Linux**
-Arch Linus users (also Arch-like distros) can install _wbfs-merge-cli_ from **PKGBUILD** (see "known issues" section below)
+**Arch Linux:**
+
+Arch Linux users (also Arch-like distros) can install _wbfs-merge-cli_ from **PKGBUILD** (see "known issues" section below)
 - Download 2 files __PKGBUILD__ and __wbfs-merge-cli.install__
 - navigate to directory where the 2 files were downloaded (from terminal)
 - run `makepkg -si`
