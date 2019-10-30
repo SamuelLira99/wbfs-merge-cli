@@ -22,19 +22,25 @@ you have 2 options to merge the game files.
 navigate to directory where the split gamefiles are (from terminal)
 and run:
 
-    option 1: `wbfs-merge-cli [filename.wbfs]`
-    option 2: `wbfs-merge-cli --id [game-id]`
+option 1: `wbfs-merge-cli [filename.wbfs]`
 
-    for example, to merge the Guitar Hero 3 (files should be named as "**RGHJ52.wbfs**" and "**RGHJ52.wbf1**"):
-    option 1: `wbfs-merge-cli RGHJ52.wbfs`
-    option 2: `wbfs-merge-cli --id rghj52`
+option 2: `wbfs-merge-cli --id [game-id]`
 
-    the id passed as `--id` is case-insensitive
+for example, to merge the Guitar Hero 3 (files should be named as "**RGHJ52.wbfs**" and "**RGHJ52.wbf1**"):
+
+option 1: `wbfs-merge-cli RGHJ52.wbfs`
+
+option 2: `wbfs-merge-cli --id rghj52`
+
+the id passed as `--id` is case-insensitive
 
 
 for a list of usage options use:
+
     `wbfs-merge-cli --help`
+
     or:
+
     `wbfs-merge-cli -h`
 
 your new game file will be inside a directory called "WBFS" that will be created in the same directory as the split game files, so:
