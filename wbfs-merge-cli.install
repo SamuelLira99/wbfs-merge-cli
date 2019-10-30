@@ -1,0 +1,4 @@
+post_remove() {
+    sudo rm /usr/local/bin/wbfs-merge-cli
+    echo "package wbfs-merge-cli was succesfully removed"
+}
