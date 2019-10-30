@@ -52,5 +52,7 @@ your new game file will be inside a directory called "**WBFS**" that will be cre
 
 **KNOWN ISSUES:**
 * _wbfs-merge-cli_ doesn't check if the merged game file was FULLY generated, so if both split game files exists and the merged one could be generated (even if it contains __0__ bytes), the message "__Files successfuly merged. HAVE FUN!__" will display
-
 * if the user writes `-id` instead of `--id` it will generate a different (and corrupt) file in a different folder and crash
+* \[Arch Linux-like distros\] when installed from __PKGBUILD__ it crashes and displays error
+    - __\*\*\* buffer overflow detected \*\*\*: wbfs-merge-cli terminated__
+    - __zsh: abort (core dumped)  wbfs-merge-cli RGHJ52.wbfs__
